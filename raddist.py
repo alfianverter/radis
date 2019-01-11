@@ -1,11 +1,6 @@
 import discord
 from discord.ext import commands
-from discord.ext.commmands import Bot
 import youtube_dl
-import asyncio
-import random
-import requests
-import os
 
 Client = discord.Client()
 client = commands.Bot(command_prefix = "-")
